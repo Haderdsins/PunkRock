@@ -1,11 +1,32 @@
 using System.Reflection;
+using App.Metrics.AspNetCore;
+using App.Metrics.Formatters.Prometheus;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
+using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.Swagger;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Configuration.AddJsonFile("appsettings.Local.json", optional: true);
+builder.Host.UseMetricsWebTracking().UseMetrics(options => 
+{
+    // Настройка endpoints для Prometheus метрик
+    options.EndpointOptions = endpointsOptions =>
+    {
+        endpointsOptions.MetricsTextEndpointOutputFormatter = new MetricsPrometheusTextOutputFormatter();
+        endpointsOptions.MetricsEndpointOutputFormatter = new MetricsPrometheusProtobufOutputFormatter();
+        endpointsOptions.EnvironmentInfoEndpointEnabled = false;
+    };
+});
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.Configure<KestrelServerOptions>(options =>
+{
+    options.AllowSynchronousIO = true;
+});
+builder.Services.AddMetrics();//добавили метрики
 builder.Services.AddSwaggerGen(options =>
 {
     // Дополнительная информация для генерации документации.
