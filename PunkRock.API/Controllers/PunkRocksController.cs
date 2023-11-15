@@ -1,9 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using App.Metrics;
+using Microsoft.AspNetCore.Mvc;
 using PunkRock.API.Models;
 using PunkRock.API.Models.Commands;
 using PunkRock.API.Models.Responces;
+using App.Metrics.AspNetCore;
+using App.Metrics.Formatters.Prometheus;
 
 namespace PunkRock.API.Controllers;
+
+
 
 [ApiController]
 [Route("api/[controller]")]
@@ -20,7 +25,7 @@ public class PunkRocksController : ControllerBase
             Status = Status.Normal
         }
     };
-
+    private readonly IMetrics _metrics; 
     /// <summary>
     /// Вывести кассету по ID
     /// </summary>
@@ -30,6 +35,7 @@ public class PunkRocksController : ControllerBase
     public CassetteResponse Get(int id)
     {
         var cassette = _cassettes.Find(cassette => cassette.Id == id);
+        _metrics.Measure.Counter.Increment(MetricsRegistry.GettedById);
         var result = new CassetteResponse
         {
             Id = cassette.Id,
@@ -47,6 +53,7 @@ public class PunkRocksController : ControllerBase
     [HttpGet]
     public IActionResult GetAll()
     {
+        _metrics.Measure.Counter.Increment(MetricsRegistry.GettedByAll);
         return Ok(_cassettes.Select(cassette => new CassetteResponse
         {
             Id = cassette.Id,
@@ -64,6 +71,7 @@ public class PunkRocksController : ControllerBase
     [HttpGet("{status}")]
     public IActionResult GetByStatus(string status)
     {
+        _metrics.Measure.Counter.Increment(MetricsRegistry.GettedByStatus);
         if (!Enum.TryParse<Status>(status, true, out var statusEnum) || !_cassettes.Exists(c => c.Status == statusEnum))
         {
             return BadRequest("Invalid status or cassette not found");
@@ -92,6 +100,7 @@ public class PunkRocksController : ControllerBase
     [HttpPost]
     public ActionResult Create(CreateCassetteCommand model)
     {
+        _metrics.Measure.Counter.Increment(MetricsRegistry.CreatedCassette);
         var cassette = new Cassette
         {
             Id = model.Id,
@@ -110,6 +119,7 @@ public class PunkRocksController : ControllerBase
     [HttpPut("{id}")]
     public ActionResult UpdateCassette(int id, [FromBody] UpdateCassetteCommand updatedCassette)
     {
+        _metrics.Measure.Counter.Increment(MetricsRegistry.UpdateCassette);
         var existingCassette = _cassettes.Find(c => c.Id == id);
         if (existingCassette == null)
         {
@@ -131,6 +141,7 @@ public class PunkRocksController : ControllerBase
     [HttpDelete("{id:int}")]
     public ActionResult Delete(int id)
     {
+        _metrics.Measure.Counter.Increment(MetricsRegistry.RemovedCassette);
         var cassetteToRemove = _cassettes.Find(c => c.Id == id);
         if (cassetteToRemove == null)
         {

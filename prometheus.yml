@@ -11,7 +11,7 @@ scrape_configs:
     static_configs:
       - targets: [ 'host.docker.internal:3000' ]
 
-  - job_name: "ваше название приложения"
+  - job_name: "Store Punk-Rock"
     metrics_path: /metrics-text
     static_configs:
-      - targets: [ 'host.docker.internal:15001' ]
+      - targets: [ 'host.docker.internal:5147' ]
