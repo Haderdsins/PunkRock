@@ -25,7 +25,13 @@ public class PunkRocksController : ControllerBase
             Status = Status.Normal
         }
     };
-    private readonly IMetrics _metrics; 
+    private readonly IMetrics _metrics;
+
+    public PunkRocksController(IMetrics metrics)
+    {
+        _metrics = metrics;
+    }
+
     /// <summary>
     /// Вывести кассету по ID
     /// </summary>

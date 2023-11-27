@@ -3,7 +3,7 @@ using App.Metrics.Counter;
 
 namespace PunkRock.API;
 
-public class MetricsRegistry
+public static class MetricsRegistry
 {
     public static CounterOptions CreatedCassette => new CounterOptions
     {
