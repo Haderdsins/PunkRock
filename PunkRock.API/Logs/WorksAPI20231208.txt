@@ -1,0 +1,811 @@
+[22:49:40 INF] Now listening on: http://localhost:5147
+[22:49:40 INF] Application started. Press Ctrl+C to shut down.
+[22:49:40 INF] Hosting environment: Development
+[22:49:40 INF] Content root path: D:\TryHARD\store\PunkRock\PunkRock.API
+[22:49:40 INF] Request starting HTTP/1.1 GET http://localhost:5147/swagger - -
+[22:49:41 INF] Request finished HTTP/1.1 GET http://localhost:5147/swagger - - - 301 0 - 356.4504ms
+[22:49:41 INF] Request starting HTTP/1.1 GET http://localhost:5147/swagger/index.html - -
+[22:49:41 INF] Request finished HTTP/1.1 GET http://localhost:5147/swagger/index.html - - - 200 - text/html;charset=utf-8 78.7890ms
+[22:49:41 INF] Request starting HTTP/1.1 GET http://localhost:5147/swagger/swagger-ui.css - -
+[22:49:41 INF] Request starting HTTP/1.1 GET http://localhost:5147/swagger/swagger-ui-standalone-preset.js - -
+[22:49:41 INF] Request starting HTTP/1.1 GET http://localhost:5147/swagger/swagger-ui-bundle.js - -
+[22:49:41 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[22:49:41 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[22:49:41 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[22:49:41 INF] Request finished HTTP/1.1 GET http://localhost:5147/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 46.3692ms
+[22:49:41 INF] Request finished HTTP/1.1 GET http://localhost:5147/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 48.4972ms
+[22:49:41 INF] Request finished HTTP/1.1 GET http://localhost:5147/swagger/swagger-ui.css - - - 200 144929 text/css 49.2114ms
+[22:49:41 INF] Request starting HTTP/1.1 GET http://localhost:5147/swagger/v1/swagger.json - -
+[22:49:41 INF] Request starting HTTP/1.1 GET http://localhost:5147/swagger/favicon-32x32.png - -
+[22:49:41 INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[22:49:41 INF] Request finished HTTP/1.1 GET http://localhost:5147/swagger/favicon-32x32.png - - - 200 628 image/png 6.8987ms
+[22:49:41 INF] Request finished HTTP/1.1 GET http://localhost:5147/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.6749ms
+[22:50:05 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:50:05 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 168.6663ms
+[22:50:07 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:07 WRN] Failed to determine the https port for redirect.
+[22:50:07 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:07 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:07 INF] All cassettes retrieved.
+[22:50:07 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:07 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 33.7979ms
+[22:50:07 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:07 INF] HTTP GET /api/PunkRocks responded 200 in 103.6378 ms
+[22:50:07 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 119.4873ms
+[22:50:08 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:08 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:08 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:08 INF] All cassettes retrieved.
+[22:50:08 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:08 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 6.9793ms
+[22:50:08 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:08 INF] HTTP GET /api/PunkRocks responded 200 in 27.6621 ms
+[22:50:08 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 37.7544ms
+[22:50:08 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:08 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:08 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:08 INF] All cassettes retrieved.
+[22:50:08 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:08 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 8.7928ms
+[22:50:08 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:08 INF] HTTP GET /api/PunkRocks responded 200 in 30.7989 ms
+[22:50:08 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 41.8370ms
+[22:50:08 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:08 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:08 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:08 INF] All cassettes retrieved.
+[22:50:08 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:08 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 7.6171ms
+[22:50:08 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:08 INF] HTTP GET /api/PunkRocks responded 200 in 20.2880 ms
+[22:50:08 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 26.8469ms
+[22:50:08 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:08 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:08 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:08 INF] All cassettes retrieved.
+[22:50:08 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:08 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 5.5883ms
+[22:50:08 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:08 INF] HTTP GET /api/PunkRocks responded 200 in 27.7026 ms
+[22:50:08 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 42.9781ms
+[22:50:08 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:08 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:08 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:08 INF] All cassettes retrieved.
+[22:50:08 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:08 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 7.4776ms
+[22:50:08 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:08 INF] HTTP GET /api/PunkRocks responded 200 in 29.1358 ms
+[22:50:08 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 42.9112ms
+[22:50:08 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:08 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:08 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:09 INF] All cassettes retrieved.
+[22:50:09 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:09 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 9.3108ms
+[22:50:09 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:09 INF] HTTP GET /api/PunkRocks responded 200 in 31.4204 ms
+[22:50:09 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 41.6230ms
+[22:50:09 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:09 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:09 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:09 INF] All cassettes retrieved.
+[22:50:09 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:09 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 6.8823ms
+[22:50:09 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:09 INF] HTTP GET /api/PunkRocks responded 200 in 23.7751 ms
+[22:50:09 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 33.1261ms
+[22:50:09 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:09 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:09 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:09 INF] All cassettes retrieved.
+[22:50:09 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:09 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 9.1642ms
+[22:50:09 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:09 INF] HTTP GET /api/PunkRocks responded 200 in 31.6803 ms
+[22:50:09 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 44.6065ms
+[22:50:09 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:09 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:09 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:09 INF] All cassettes retrieved.
+[22:50:09 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:09 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 5.2595ms
+[22:50:09 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:09 INF] HTTP GET /api/PunkRocks responded 200 in 18.2522 ms
+[22:50:09 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 26.8083ms
+[22:50:09 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:09 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:09 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:09 INF] All cassettes retrieved.
+[22:50:09 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:09 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 6.0903ms
+[22:50:09 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:09 INF] HTTP GET /api/PunkRocks responded 200 in 23.3215 ms
+[22:50:09 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 38.0666ms
+[22:50:09 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:09 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:09 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:09 INF] All cassettes retrieved.
+[22:50:09 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:09 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 8.1901ms
+[22:50:09 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:09 INF] HTTP GET /api/PunkRocks responded 200 in 26.8097 ms
+[22:50:09 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 37.0319ms
+[22:50:09 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:09 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:09 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:09 INF] All cassettes retrieved.
+[22:50:09 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:09 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 7.2071ms
+[22:50:10 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:10 INF] HTTP GET /api/PunkRocks responded 200 in 22.5195 ms
+[22:50:10 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 30.1958ms
+[22:50:10 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:10 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:10 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:10 INF] All cassettes retrieved.
+[22:50:10 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:10 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 8.0063ms
+[22:50:10 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:10 INF] HTTP GET /api/PunkRocks responded 200 in 29.1583 ms
+[22:50:10 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 41.2902ms
+[22:50:10 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:10 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:10 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:10 INF] All cassettes retrieved.
+[22:50:10 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:10 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 4.9536ms
+[22:50:10 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:10 INF] HTTP GET /api/PunkRocks responded 200 in 16.7244 ms
+[22:50:10 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 22.0209ms
+[22:50:10 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:10 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:10 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:10 INF] All cassettes retrieved.
+[22:50:10 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:10 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 5.3955ms
+[22:50:10 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:10 INF] HTTP GET /api/PunkRocks responded 200 in 21.7735 ms
+[22:50:10 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 28.6646ms
+[22:50:10 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:10 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:10 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:10 INF] All cassettes retrieved.
+[22:50:10 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:10 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 6.9847ms
+[22:50:10 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:10 INF] HTTP GET /api/PunkRocks responded 200 in 24.8000 ms
+[22:50:10 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 36.6227ms
+[22:50:10 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:10 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:10 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:10 INF] All cassettes retrieved.
+[22:50:10 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:10 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 4.9608ms
+[22:50:10 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:10 INF] HTTP GET /api/PunkRocks responded 200 in 19.1083 ms
+[22:50:10 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 24.4206ms
+[22:50:10 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:50:10 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:10 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:10 INF] All cassettes retrieved.
+[22:50:10 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:50:10 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 5.8583ms
+[22:50:10 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:50:10 INF] HTTP GET /api/PunkRocks responded 200 in 18.5396 ms
+[22:50:10 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 26.3894ms
+[22:50:13 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:13 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:13 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:13 INF] Cassette retrieved by ID: 1
+[22:50:13 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:13 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 26.8459ms
+[22:50:13 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:13 INF] HTTP GET /api/PunkRocks/1 responded 200 in 62.4174 ms
+[22:50:13 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 71.5968ms
+[22:50:13 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:13 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:13 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:13 INF] Cassette retrieved by ID: 1
+[22:50:13 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:13 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 9.7348ms
+[22:50:13 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:13 INF] HTTP GET /api/PunkRocks/1 responded 200 in 30.0733 ms
+[22:50:13 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 38.7514ms
+[22:50:13 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:13 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:13 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:13 INF] Cassette retrieved by ID: 1
+[22:50:13 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:13 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 6.8199ms
+[22:50:13 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:13 INF] HTTP GET /api/PunkRocks/1 responded 200 in 22.3890 ms
+[22:50:13 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 29.7037ms
+[22:50:13 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:13 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:13 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:13 INF] Cassette retrieved by ID: 1
+[22:50:13 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:13 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 5.1151ms
+[22:50:13 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:13 INF] HTTP GET /api/PunkRocks/1 responded 200 in 18.4790 ms
+[22:50:13 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 24.5371ms
+[22:50:14 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:14 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:14 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:14 INF] Cassette retrieved by ID: 1
+[22:50:14 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:14 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 6.0888ms
+[22:50:14 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:14 INF] HTTP GET /api/PunkRocks/1 responded 200 in 18.9557 ms
+[22:50:14 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 25.6656ms
+[22:50:14 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:14 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:14 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:14 INF] Cassette retrieved by ID: 1
+[22:50:14 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:14 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 8.3205ms
+[22:50:14 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:14 INF] HTTP GET /api/PunkRocks/1 responded 200 in 29.4714 ms
+[22:50:14 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 37.4697ms
+[22:50:14 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:14 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:14 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:14 INF] Cassette retrieved by ID: 1
+[22:50:14 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:14 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 7.5652ms
+[22:50:14 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:14 INF] HTTP GET /api/PunkRocks/1 responded 200 in 26.2839 ms
+[22:50:14 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 33.2765ms
+[22:50:14 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:14 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:14 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:14 INF] Cassette retrieved by ID: 1
+[22:50:14 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:14 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 7.6579ms
+[22:50:14 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:14 INF] HTTP GET /api/PunkRocks/1 responded 200 in 24.9849 ms
+[22:50:14 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 33.2630ms
+[22:50:14 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:14 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:14 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:14 INF] Cassette retrieved by ID: 1
+[22:50:14 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:14 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 7.3057ms
+[22:50:14 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:14 INF] HTTP GET /api/PunkRocks/1 responded 200 in 20.5594 ms
+[22:50:14 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 27.6169ms
+[22:50:14 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:14 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:14 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:14 INF] Cassette retrieved by ID: 1
+[22:50:14 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:14 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 4.624ms
+[22:50:14 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:14 INF] HTTP GET /api/PunkRocks/1 responded 200 in 18.9391 ms
+[22:50:14 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 25.7896ms
+[22:50:15 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - -
+[22:50:15 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:15 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:15 WRN] Cassette not found for ID: 2
+[22:50:15 INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+[22:50:15 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 8.9956ms
+[22:50:15 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:15 INF] HTTP GET /api/PunkRocks/2 responded 404 in 24.7366 ms
+[22:50:15 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - - - 404 - text/plain;+charset=utf-8 75.8848ms
+[22:50:15 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - -
+[22:50:15 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:15 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:15 WRN] Cassette not found for ID: 2
+[22:50:15 INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+[22:50:15 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 9.4932ms
+[22:50:15 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:15 INF] HTTP GET /api/PunkRocks/2 responded 404 in 22.3924 ms
+[22:50:15 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - - - 404 - text/plain;+charset=utf-8 29.6805ms
+[22:50:16 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - -
+[22:50:16 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:16 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:16 WRN] Cassette not found for ID: 2
+[22:50:16 INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+[22:50:16 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 7.8564ms
+[22:50:16 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:16 INF] HTTP GET /api/PunkRocks/2 responded 404 in 22.4263 ms
+[22:50:16 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - - - 404 - text/plain;+charset=utf-8 33.5071ms
+[22:50:16 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - -
+[22:50:16 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:16 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:16 WRN] Cassette not found for ID: 2
+[22:50:16 INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+[22:50:16 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 3.9645ms
+[22:50:16 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:16 INF] HTTP GET /api/PunkRocks/2 responded 404 in 17.8640 ms
+[22:50:16 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - - - 404 - text/plain;+charset=utf-8 24.0838ms
+[22:50:16 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - -
+[22:50:16 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:16 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:16 WRN] Cassette not found for ID: 2
+[22:50:16 INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+[22:50:16 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 6.1843ms
+[22:50:16 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:16 INF] HTTP GET /api/PunkRocks/2 responded 404 in 17.0169 ms
+[22:50:16 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - - - 404 - text/plain;+charset=utf-8 25.0406ms
+[22:50:16 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - -
+[22:50:16 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:16 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:16 WRN] Cassette not found for ID: 2
+[22:50:16 INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+[22:50:16 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 5.9539ms
+[22:50:16 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:16 INF] HTTP GET /api/PunkRocks/2 responded 404 in 23.0638 ms
+[22:50:16 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - - - 404 - text/plain;+charset=utf-8 32.8163ms
+[22:50:16 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - -
+[22:50:16 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:16 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:16 WRN] Cassette not found for ID: 2
+[22:50:16 INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+[22:50:16 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 5.1986ms
+[22:50:16 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:16 INF] HTTP GET /api/PunkRocks/2 responded 404 in 14.4039 ms
+[22:50:16 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - - - 404 - text/plain;+charset=utf-8 19.6055ms
+[22:50:16 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - -
+[22:50:16 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:16 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:16 WRN] Cassette not found for ID: 2
+[22:50:16 INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+[22:50:16 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 9.4199ms
+[22:50:16 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:16 INF] HTTP GET /api/PunkRocks/2 responded 404 in 31.3886 ms
+[22:50:16 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - - - 404 - text/plain;+charset=utf-8 42.8464ms
+[22:50:17 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - -
+[22:50:17 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:17 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:17 WRN] Cassette not found for ID: 2
+[22:50:17 INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+[22:50:17 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 7.6688ms
+[22:50:17 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:17 INF] HTTP GET /api/PunkRocks/2 responded 404 in 19.3126 ms
+[22:50:17 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/2 - - - 404 - text/plain;+charset=utf-8 26.3032ms
+[22:50:18 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/33 - -
+[22:50:18 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:18 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:18 WRN] Cassette not found for ID: 33
+[22:50:18 INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+[22:50:18 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 6.7724ms
+[22:50:18 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:18 INF] HTTP GET /api/PunkRocks/33 responded 404 in 19.9337 ms
+[22:50:18 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/33 - - - 404 - text/plain;+charset=utf-8 28.5038ms
+[22:50:18 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/33 - -
+[22:50:18 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:18 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:18 WRN] Cassette not found for ID: 33
+[22:50:18 INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+[22:50:18 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 4.3513ms
+[22:50:18 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:18 INF] HTTP GET /api/PunkRocks/33 responded 404 in 18.1867 ms
+[22:50:18 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/33 - - - 404 - text/plain;+charset=utf-8 23.9146ms
+[22:50:18 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/33 - -
+[22:50:18 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:18 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:18 WRN] Cassette not found for ID: 33
+[22:50:18 INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+[22:50:18 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 6.8144ms
+[22:50:18 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:18 INF] HTTP GET /api/PunkRocks/33 responded 404 in 20.1165 ms
+[22:50:18 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/33 - - - 404 - text/plain;+charset=utf-8 26.2001ms
+[22:50:18 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/33 - -
+[22:50:18 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:18 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:18 WRN] Cassette not found for ID: 33
+[22:50:18 INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+[22:50:18 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 6.1717ms
+[22:50:18 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:18 INF] HTTP GET /api/PunkRocks/33 responded 404 in 17.0103 ms
+[22:50:18 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/33 - - - 404 - text/plain;+charset=utf-8 21.5253ms
+[22:50:19 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:19 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:19 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:19 INF] Cassette retrieved by ID: 1
+[22:50:19 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:19 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 10.6765ms
+[22:50:19 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:19 INF] HTTP GET /api/PunkRocks/1 responded 200 in 33.2804 ms
+[22:50:19 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 45.1537ms
+[22:50:19 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:19 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:19 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:19 INF] Cassette retrieved by ID: 1
+[22:50:19 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:19 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 5.6517ms
+[22:50:19 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:19 INF] HTTP GET /api/PunkRocks/1 responded 200 in 23.9327 ms
+[22:50:19 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 30.5683ms
+[22:50:19 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:19 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:19 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:19 INF] Cassette retrieved by ID: 1
+[22:50:19 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:19 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 8.538ms
+[22:50:19 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:19 INF] HTTP GET /api/PunkRocks/1 responded 200 in 25.6088 ms
+[22:50:19 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 36.6723ms
+[22:50:19 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:19 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:19 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:19 INF] Cassette retrieved by ID: 1
+[22:50:19 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:19 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 17.934ms
+[22:50:19 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:19 INF] HTTP GET /api/PunkRocks/1 responded 200 in 47.7513 ms
+[22:50:19 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 55.5210ms
+[22:50:19 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:19 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:19 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:19 INF] Cassette retrieved by ID: 1
+[22:50:19 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:19 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 8.3588ms
+[22:50:19 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:19 INF] HTTP GET /api/PunkRocks/1 responded 200 in 29.8366 ms
+[22:50:20 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 39.1276ms
+[22:50:20 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - -
+[22:50:20 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:20 INF] Route matched with {action = "Get", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:20 INF] Cassette retrieved by ID: 1
+[22:50:20 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:20 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API) in 4.2619ms
+[22:50:20 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Get (PunkRock.API)'
+[22:50:20 INF] HTTP GET /api/PunkRocks/1 responded 200 in 18.8749 ms
+[22:50:20 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/1 - - - 200 - application/json;+charset=utf-8 25.7212ms
+[22:50:20 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:50:20 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 25.7761ms
+[22:50:28 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Normal - -
+[22:50:28 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:28 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:28 INF] Cassette retrieved by status: Normal
+[22:50:28 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:28 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 17.7983ms
+[22:50:28 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:28 INF] HTTP GET /api/PunkRocks/Normal responded 200 in 32.9674 ms
+[22:50:28 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Normal - - - 200 - application/json;+charset=utf-8 41.6739ms
+[22:50:28 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Normal - -
+[22:50:28 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:28 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:28 INF] Cassette retrieved by status: Normal
+[22:50:28 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:28 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 4.6134ms
+[22:50:28 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:28 INF] HTTP GET /api/PunkRocks/Normal responded 200 in 15.9750 ms
+[22:50:28 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Normal - - - 200 - application/json;+charset=utf-8 24.2541ms
+[22:50:28 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Normal - -
+[22:50:28 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:28 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:28 INF] Cassette retrieved by status: Normal
+[22:50:28 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:28 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 14.3051ms
+[22:50:28 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:28 INF] HTTP GET /api/PunkRocks/Normal responded 200 in 34.7790 ms
+[22:50:28 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Normal - - - 200 - application/json;+charset=utf-8 43.2990ms
+[22:50:28 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Normal - -
+[22:50:28 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:28 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:28 INF] Cassette retrieved by status: Normal
+[22:50:28 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:28 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 9.5547ms
+[22:50:28 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:28 INF] HTTP GET /api/PunkRocks/Normal responded 200 in 31.0961 ms
+[22:50:28 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Normal - - - 200 - application/json;+charset=utf-8 42.4414ms
+[22:50:28 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Normal - -
+[22:50:28 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:28 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:28 INF] Cassette retrieved by status: Normal
+[22:50:28 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:28 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 3.7954ms
+[22:50:28 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:28 INF] HTTP GET /api/PunkRocks/Normal responded 200 in 15.2515 ms
+[22:50:28 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Normal - - - 200 - application/json;+charset=utf-8 21.2714ms
+[22:50:29 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Normal - -
+[22:50:29 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:29 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:29 INF] Cassette retrieved by status: Normal
+[22:50:29 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:29 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 8.5487ms
+[22:50:29 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:29 INF] HTTP GET /api/PunkRocks/Normal responded 200 in 22.8574 ms
+[22:50:29 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Normal - - - 200 - application/json;+charset=utf-8 31.6920ms
+[22:50:30 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Normal - -
+[22:50:30 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:30 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:30 INF] Cassette retrieved by status: Normal
+[22:50:30 INF] Executing OkObjectResult, writing value of type 'PunkRock.API.Models.Responces.CassetteResponse'.
+[22:50:30 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 7.3243ms
+[22:50:30 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:30 INF] HTTP GET /api/PunkRocks/Normal responded 200 in 22.7892 ms
+[22:50:30 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Normal - - - 200 - application/json;+charset=utf-8 31.8096ms
+[22:50:32 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - -
+[22:50:32 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:32 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:32 WRN] Invalid status or cassette not found for status: Old
+[22:50:32 INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[22:50:32 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 7.0681ms
+[22:50:32 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:32 INF] HTTP GET /api/PunkRocks/Old responded 400 in 23.5312 ms
+[22:50:32 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - - - 400 - text/plain;+charset=utf-8 35.7230ms
+[22:50:32 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - -
+[22:50:32 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:32 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:32 WRN] Invalid status or cassette not found for status: Old
+[22:50:32 INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[22:50:32 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 6.3681ms
+[22:50:32 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:32 INF] HTTP GET /api/PunkRocks/Old responded 400 in 21.8534 ms
+[22:50:32 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - - - 400 - text/plain;+charset=utf-8 31.1885ms
+[22:50:33 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - -
+[22:50:33 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:33 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:33 WRN] Invalid status or cassette not found for status: Old
+[22:50:33 INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[22:50:33 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 7.8519ms
+[22:50:33 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:33 INF] HTTP GET /api/PunkRocks/Old responded 400 in 24.2828 ms
+[22:50:33 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - - - 400 - text/plain;+charset=utf-8 32.4606ms
+[22:50:33 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - -
+[22:50:33 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:33 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:33 WRN] Invalid status or cassette not found for status: Old
+[22:50:33 INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[22:50:33 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 6.6719ms
+[22:50:33 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:33 INF] HTTP GET /api/PunkRocks/Old responded 400 in 20.8649 ms
+[22:50:33 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - - - 400 - text/plain;+charset=utf-8 31.4661ms
+[22:50:33 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - -
+[22:50:33 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:33 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:33 WRN] Invalid status or cassette not found for status: Old
+[22:50:33 INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[22:50:33 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 7.4707ms
+[22:50:33 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:33 INF] HTTP GET /api/PunkRocks/Old responded 400 in 21.6345 ms
+[22:50:33 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - - - 400 - text/plain;+charset=utf-8 30.0801ms
+[22:50:33 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - -
+[22:50:33 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:33 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:33 WRN] Invalid status or cassette not found for status: Old
+[22:50:33 INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[22:50:33 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 5.9474ms
+[22:50:33 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:33 INF] HTTP GET /api/PunkRocks/Old responded 400 in 24.0443 ms
+[22:50:33 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - - - 400 - text/plain;+charset=utf-8 33.0233ms
+[22:50:33 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - -
+[22:50:33 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:33 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:33 WRN] Invalid status or cassette not found for status: Old
+[22:50:33 INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[22:50:33 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 4.5981ms
+[22:50:33 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:33 INF] HTTP GET /api/PunkRocks/Old responded 400 in 18.0043 ms
+[22:50:33 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - - - 400 - text/plain;+charset=utf-8 24.9776ms
+[22:50:34 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - -
+[22:50:34 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:34 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:34 WRN] Invalid status or cassette not found for status: Old
+[22:50:34 INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[22:50:34 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 7.5147ms
+[22:50:34 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:34 INF] HTTP GET /api/PunkRocks/Old responded 400 in 19.8606 ms
+[22:50:34 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - - - 400 - text/plain;+charset=utf-8 24.5913ms
+[22:50:34 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - -
+[22:50:34 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:34 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:34 WRN] Invalid status or cassette not found for status: Old
+[22:50:34 INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[22:50:34 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 6.4042ms
+[22:50:34 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:34 INF] HTTP GET /api/PunkRocks/Old responded 400 in 24.8963 ms
+[22:50:34 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - - - 400 - text/plain;+charset=utf-8 34.2989ms
+[22:50:34 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - -
+[22:50:34 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:34 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:34 WRN] Invalid status or cassette not found for status: Old
+[22:50:34 INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[22:50:34 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 4.591ms
+[22:50:34 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:34 INF] HTTP GET /api/PunkRocks/Old responded 400 in 17.4299 ms
+[22:50:34 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - - - 400 - text/plain;+charset=utf-8 23.0211ms
+[22:50:34 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - -
+[22:50:34 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:34 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:34 WRN] Invalid status or cassette not found for status: Old
+[22:50:34 INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[22:50:34 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 11.2105ms
+[22:50:34 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:34 INF] HTTP GET /api/PunkRocks/Old responded 400 in 39.2951 ms
+[22:50:34 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - - - 400 - text/plain;+charset=utf-8 49.7827ms
+[22:50:34 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - -
+[22:50:34 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:34 INF] Route matched with {action = "GetByStatus", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByStatus(System.String) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:50:34 WRN] Invalid status or cassette not found for status: Old
+[22:50:34 INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[22:50:34 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API) in 7.2174ms
+[22:50:34 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetByStatus (PunkRock.API)'
+[22:50:34 INF] HTTP GET /api/PunkRocks/Old responded 400 in 18.9640 ms
+[22:50:34 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks/Old - - - 400 - text/plain;+charset=utf-8 28.0219ms
+[22:50:35 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:50:35 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 8.9280ms
+[22:50:50 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:50:50 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.2911ms
+[22:51:05 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:51:05 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.0697ms
+[22:51:20 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:51:20 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 1.6045ms
+[22:51:35 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:51:35 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 4.2069ms
+[22:51:48 INF] Request starting HTTP/1.1 POST http://localhost:5147/api/PunkRocks application/json 76
+[22:51:48 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API)'
+[22:51:48 INF] Route matched with {action = "Create", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create(PunkRock.API.Models.Commands.CreateCassetteCommand) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:51:48 INF] Cassette created with ID: 2
+[22:51:48 INF] Executing StatusCodeResult, setting HTTP status code 200
+[22:51:48 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API) in 33.4223ms
+[22:51:48 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API)'
+[22:51:48 INF] HTTP POST /api/PunkRocks responded 200 in 41.8712 ms
+[22:51:48 INF] Request finished HTTP/1.1 POST http://localhost:5147/api/PunkRocks application/json 76 - 200 0 - 50.6237ms
+[22:51:49 INF] Request starting HTTP/1.1 POST http://localhost:5147/api/PunkRocks application/json 76
+[22:51:49 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API)'
+[22:51:49 INF] Route matched with {action = "Create", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create(PunkRock.API.Models.Commands.CreateCassetteCommand) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:51:49 INF] Cassette created with ID: 2
+[22:51:49 INF] Executing StatusCodeResult, setting HTTP status code 200
+[22:51:49 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API) in 4.3358ms
+[22:51:49 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API)'
+[22:51:49 INF] HTTP POST /api/PunkRocks responded 200 in 9.8129 ms
+[22:51:49 INF] Request finished HTTP/1.1 POST http://localhost:5147/api/PunkRocks application/json 76 - 200 0 - 13.3759ms
+[22:51:49 INF] Request starting HTTP/1.1 POST http://localhost:5147/api/PunkRocks application/json 76
+[22:51:49 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API)'
+[22:51:49 INF] Route matched with {action = "Create", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create(PunkRock.API.Models.Commands.CreateCassetteCommand) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:51:49 INF] Cassette created with ID: 2
+[22:51:49 INF] Executing StatusCodeResult, setting HTTP status code 200
+[22:51:49 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API) in 2.303ms
+[22:51:49 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API)'
+[22:51:49 INF] HTTP POST /api/PunkRocks responded 200 in 8.1443 ms
+[22:51:49 INF] Request finished HTTP/1.1 POST http://localhost:5147/api/PunkRocks application/json 76 - 200 0 - 11.2940ms
+[22:51:50 INF] Request starting HTTP/1.1 POST http://localhost:5147/api/PunkRocks application/json 76
+[22:51:50 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API)'
+[22:51:50 INF] Route matched with {action = "Create", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create(PunkRock.API.Models.Commands.CreateCassetteCommand) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:51:50 INF] Cassette created with ID: 2
+[22:51:50 INF] Executing StatusCodeResult, setting HTTP status code 200
+[22:51:50 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API) in 2.7896ms
+[22:51:50 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API)'
+[22:51:50 INF] HTTP POST /api/PunkRocks responded 200 in 13.4541 ms
+[22:51:50 INF] Request finished HTTP/1.1 POST http://localhost:5147/api/PunkRocks application/json 76 - 200 0 - 20.0286ms
+[22:51:50 INF] Request starting HTTP/1.1 POST http://localhost:5147/api/PunkRocks application/json 76
+[22:51:50 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API)'
+[22:51:50 INF] Route matched with {action = "Create", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create(PunkRock.API.Models.Commands.CreateCassetteCommand) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:51:50 INF] Cassette created with ID: 2
+[22:51:50 INF] Executing StatusCodeResult, setting HTTP status code 200
+[22:51:50 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API) in 1.6338ms
+[22:51:50 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API)'
+[22:51:50 INF] HTTP POST /api/PunkRocks responded 200 in 6.2159 ms
+[22:51:50 INF] Request finished HTTP/1.1 POST http://localhost:5147/api/PunkRocks application/json 76 - 200 0 - 9.6039ms
+[22:51:50 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:51:50 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 10.0526ms
+[22:51:52 INF] Request starting HTTP/1.1 POST http://localhost:5147/api/PunkRocks application/json 76
+[22:51:52 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API)'
+[22:51:52 INF] Route matched with {action = "Create", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create(PunkRock.API.Models.Commands.CreateCassetteCommand) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:51:52 INF] Cassette created with ID: 3
+[22:51:52 INF] Executing StatusCodeResult, setting HTTP status code 200
+[22:51:52 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API) in 1.7162ms
+[22:51:52 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API)'
+[22:51:52 INF] HTTP POST /api/PunkRocks responded 200 in 6.5725 ms
+[22:51:52 INF] Request finished HTTP/1.1 POST http://localhost:5147/api/PunkRocks application/json 76 - 200 0 - 9.2854ms
+[22:52:05 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:52:05 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.8136ms
+[22:52:07 INF] Request starting HTTP/1.1 GET http://localhost:5147/api/PunkRocks - -
+[22:52:07 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:52:07 INF] Route matched with {action = "GetAll", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[22:52:07 INF] All cassettes retrieved.
+[22:52:07 INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[PunkRock.API.Models.Cassette, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PunkRock.API.Models.Responces.CassetteResponse, PunkRock.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:52:07 INF] Executed action PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API) in 3.6501ms
+[22:52:07 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.GetAll (PunkRock.API)'
+[22:52:07 INF] HTTP GET /api/PunkRocks responded 200 in 10.1392 ms
+[22:52:07 INF] Request finished HTTP/1.1 GET http://localhost:5147/api/PunkRocks - - - 200 - application/json;+charset=utf-8 13.3690ms
+[22:52:20 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:52:20 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.1139ms
+[22:52:35 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:52:35 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 4.2376ms
+[22:52:50 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:52:50 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 4.7377ms
+[22:53:05 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:53:05 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 1.7963ms
+[22:53:20 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:53:20 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 5.3126ms
+[22:53:35 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:53:35 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 3.0731ms
+[22:53:50 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:53:50 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 1.7768ms
+[22:54:05 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:54:05 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.1049ms
+[22:54:20 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:54:20 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.7486ms
+[22:54:35 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:54:35 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 1.1841ms
+[22:54:50 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:54:50 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 3.0259ms
+[22:55:05 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:55:05 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 4.2622ms
+[22:55:20 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:55:20 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.7376ms
+[22:55:35 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:55:35 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 3.1901ms
+[22:55:50 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:55:50 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 3.1864ms
+[22:56:05 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:56:05 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 3.2769ms
+[22:56:20 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:56:20 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 1.3987ms
+[22:56:35 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:56:35 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 4.2466ms
+[22:56:50 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:56:50 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 3.0757ms
+[22:57:05 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:57:05 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.5418ms
+[22:57:20 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:57:20 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 5.9081ms
+[22:57:35 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:57:35 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 1.4333ms
+[22:57:50 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:57:50 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 4.4301ms
+[22:58:05 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:58:05 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 3.2351ms
+[22:58:20 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:58:20 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 1.7640ms
+[22:58:35 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:58:35 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.6485ms
+[22:58:50 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:58:50 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.8429ms
+[22:59:05 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:59:05 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 1.2089ms
+[22:59:20 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:59:20 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 1.8560ms
+[22:59:35 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:59:35 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 6.2148ms
+[22:59:50 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[22:59:50 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 3.0202ms
+[23:00:05 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:00:05 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.0859ms
+[23:00:20 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:00:20 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.2367ms
+[23:00:35 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:00:35 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.4640ms
+[23:00:50 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:00:50 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 1.2763ms
+[23:01:05 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:01:05 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 4.8557ms
+[23:01:17 INF] Request starting HTTP/1.1 POST http://localhost:5147/api/PunkRocks application/json 76
+[23:01:17 INF] Executing endpoint 'PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API)'
+[23:01:17 INF] Route matched with {action = "Create", controller = "PunkRocks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create(PunkRock.API.Models.Commands.CreateCassetteCommand) on controller PunkRock.API.Controllers.PunkRocksController (PunkRock.API).
+[23:01:17 INF] Cassette created with ID: 3
+[23:01:17 INF] Executing StatusCodeResult, setting HTTP status code 200
+[23:01:17 INF] Executed action PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API) in 2.2191ms
+[23:01:17 INF] Executed endpoint 'PunkRock.API.Controllers.PunkRocksController.Create (PunkRock.API)'
+[23:01:17 INF] HTTP POST /api/PunkRocks responded 200 in 8.0968 ms
+[23:01:17 INF] Request finished HTTP/1.1 POST http://localhost:5147/api/PunkRocks application/json 76 - 200 0 - 12.3698ms
+[23:01:20 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:01:20 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 6.1751ms
+[23:01:35 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:01:35 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.7402ms
+[23:01:50 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:01:50 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 4.0800ms
+[23:02:05 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:02:05 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.6524ms
+[23:02:20 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:02:20 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 5.3051ms
+[23:02:35 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:02:35 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.1837ms
+[23:02:50 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:02:50 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 5.8690ms
+[23:03:05 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:03:05 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.9015ms
+[23:03:20 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:03:20 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.0768ms
+[23:03:35 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:03:35 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 2.9326ms
+[23:03:50 INF] Request starting HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - -
+[23:03:50 INF] Request finished HTTP/1.1 GET http://host.docker.internal:5147/metrics-text - - - 200 - text/plain 3.6305ms
+[23:04:02 INF] Application is shutting down...
