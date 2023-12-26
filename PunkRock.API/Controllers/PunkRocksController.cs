@@ -1,6 +1,5 @@
 ﻿using App.Metrics;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using PunkRock.API.Models;
 using PunkRock.API.Models.Commands;
 using PunkRock.API.Models.Responces;
